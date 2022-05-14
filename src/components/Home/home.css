@@ -1,0 +1,317 @@
+.box{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.line{
+    margin:auto;
+    margin-top: -20px;
+
+  
+}
+
+.p2{
+    font-weight:500;
+    font-size: 30px;
+}
+
+.p1{
+    font-size: 30px;
+}
+
+.hair{
+    background-color:rgb(255,250,251);
+    text-align: center;
+    padding: 30px;
+}
+
+.hairp1{
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.hairp2{
+ 
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+.div1{
+    margin-top: 10px;
+}
+
+.div2{
+    margin-top: 10px;
+}
+
+.infodabba{
+    text-align: center;
+    /* border: 1px solid green; */
+    width: 90%;
+    margin: 50px auto;
+}
+.info{
+   
+    border-radius: 1.5rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid ; */
+    margin-top: 30px;
+ 
+}
+
+.info>div>img{
+  
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.infoboxA{
+    
+    display: flex;
+    flex-direction: column;
+ 
+    flex: 1 1 0%;
+    position: relative;
+    padding-inline: 1rem;
+
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+    margin-top: calc(var(--chakra-space-2) * -10);
+
+    background-color: rgb(238,255,247);
+    border-radius: 20px;
+   
+    opacity: 100;
+    z-index: 1;
+    /* border: 1px solid orangered; */
+}
+
+.infoboxB{
+    
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1 1 0%;
+    position: relative;
+    padding-inline: 1rem;
+  
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+    margin-top: calc(var(--chakra-space-2) * -8);
+
+    background-color: rgb(247,247,255);
+    border-radius: 20px;
+   
+    opacity: 100;
+    z-index: 1;
+    /* border: 1px solid orangered; */
+}
+
+
+.infoboxC{
+    
+    display: flex;
+   
+   
+    flex: 1 1 0%;
+    position: relative;
+    padding-inline: 1rem;
+   
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+    margin-top: calc(var(--chakra-space-2) * -10);
+
+    background-color: rgb(246,237,231);
+    border-radius: 20px;
+  
+    opacity: 100;
+    z-index: 1;
+    /* border: 1px solid orangered; */
+}
+
+.infoboxD{
+    
+    display: flex;
+    
+    
+    flex: 1 1 0%;
+    position: relative;
+    padding-inline: 1rem;
+ 
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+    margin-top: calc(var(--chakra-space-2) * -7);
+
+    background-color:rgb(242,247,255);
+
+    border-radius: 20px;
+
+    opacity: 100;
+    z-index: 1;
+    /* border: 1px solid orangered; */
+}
+
+
+.infobox1{
+
+    display: flex;
+   
+  
+    text-align: left;
+    
+    gap: 5px;
+
+    /* border: 1px solid brown; */
+ 
+   
+}
+
+
+#topper{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid purple; */
+}
+
+.infobox2{
+   margin-top: 25px;
+   /* border: 1px solid yellowgreen; */
+}
+
+.infobox2 >p{
+ 
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+.infobox2 >img{
+
+    width: 50%;
+}
+
+.para{
+    color: gray;
+}
+
+
+
+.story{
+    display: flex;
+}
+
+.storybtn{
+    margin: 20px;
+}
+
+
+.ADbox{
+
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.ADboxR{
+    background-color: rgb(110,113,204);
+
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding-bottom: 50px;
+
+    flex: 4;
+}
+
+.ADboxR > div >p{
+
+    font-weight: bold;
+    font-size:30px;
+    margin: 20px;
+}
+
+.ADboxR > div >img{
+    margin: auto;
+}
+
+.ADboxL{
+
+
+    text-align: center;
+    color: white;
+   
+    gap: 20px;
+    flex: 4;
+  
+    height: 50%;
+    
+ 
+
+
+}
+.ADboxLU{
+    background-color: rgb(52,112,228);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.ADboxLU1{
+    display: flex;
+    
+}
+
+
+.ADboxLU > div > div >p{
+
+    font-weight: bold;
+    font-size:30px;
+   
+}
+
+.ADboxLL{
+   
+    display: flex;
+
+    gap: 20px;
+
+}
+
+.ADboxLL1{
+    background-color: #6fbdcd;
+    border-radius: 30px;
+    flex: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ADboxLL2{
+    background-color:rgb(111,205,158);
+    border-radius: 30px;
+    flex: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+
+}

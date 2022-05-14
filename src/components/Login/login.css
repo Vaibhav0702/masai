@@ -1,0 +1,67 @@
+
+.login{
+
+    /* border: 1px solid red; */
+
+    width: 50%;
+    margin: 40px auto;
+  
+
+}
+
+.Llogo > img {
+    width: 25%;
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+.Llogo{
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid yellow; */
+}
+.form{
+    /* border: 1px solid green; */
+    width: 60%;
+    margin: 10px auto;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.input{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.formp{
+    font-weight: bold;
+    color: gray;
+    margin: 10px;
+}
+.forgot{
+    display: flex;
+   justify-content: space-between;
+}
+.fgta{
+    color: blue;
+    margin-top: 15px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.google{
+    width: 100%;
+   margin-top: 10px;
+   text-align: center;
+}

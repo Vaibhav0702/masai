@@ -1,0 +1,84 @@
+
+.header{
+    /* border: 1px solid red; */
+    width: 95%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* .Navbar{
+    padding: 25px;
+} */
+.logo > img {
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.logo{
+    margin-right: 6%;
+}
+/* .course{
+    border: 1px solid red;
+} */
+
+.menulist{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    /* border: 1px solid green; */
+}
+.smalltext{
+    font-size: small;
+}
+/* .arro{
+    border: 1px solid red;
+}
+.arro1{
+    border: 1px solid blue;
+} */
+
+.list{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.rgt{
+    display: flex;
+    gap: 10px;
+}
+
+.rgt>p{
+    color: crimson;
+}
+
+.upper{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    background-color: black;
+}
+
+.upperp{
+    margin-top: 6px;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.top{
+    background-color: black;
+    padding: 10px;
+}
+
+.topbtn{
+    margin-left: 20px;
+}

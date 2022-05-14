@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "username": "vaibhav",
+      "email": "vaibhavginnalwar@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    }
+  ],
+  "company1": [
+    {
+      "title": "swiggy",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/swiggy_bc1b88842e.svg"
+    },
+    {
+      "title": "bharat pay",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/bharatpe_a3a5a3f552.svg"
+    },
+    {
+      "title": "money trap",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/moneytap_d5a6c9d532.svg"
+    },
+    {
+      "title": "dream 11",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/dream11_d6c8d97a52.svg"
+    },
+    {
+      "title": "home lane",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/homelane_e9cadd0c3c.svg"
+    },
+    {
+      "title": "urban piper",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/urbanpiper_2884348a0b.svg"
+    },
+    {
+      "title": "paytm",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_a5c1ce2bc6.svg"
+    },
+    {
+      "title": "white hat",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/whitehat_5a86f1e308.svg"
+    },
+    {
+      "title": "AirMeet",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/airmeet_93e45faced.svg"
+    },
+    {
+      "title": "salesken",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/salesken_baefe048ac.svg"
+    }
+  ],
+  "company2": [
+    {
+      "title": "Ajio",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/ajio_a16cd7a85b.svg"
+    },
+    {
+      "title": "vyapar",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/vyapar_3f3770ebb5.svg"
+    },
+    {
+      "title": "capgemeni",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/capgemini_31a863e94f.svg"
+    },
+    {
+      "title": "simplilearn",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/simplilearn_f8af8de923.svg"
+    },
+    {
+      "title": "pagar book",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/pagarbook_2746958f65.svg"
+    },
+    {
+      "title": "urban piper",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/urbanpiper_2884348a0b.svg"
+    },
+    {
+      "title": "small case",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/smallcase_1740bcc33f.svg"
+    },
+    {
+      "title": "bharat Agri",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/bharatagri_d4794042fe.svg"
+    },
+    {
+      "title": "shear chat",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_23a9923a34.svg"
+    },
+    {
+      "title": "leap finance",
+      "image": "https://masai-website-images.s3.ap-south-1.amazonaws.com/leapfinance_0d785d05eb.svg"
+    }
+  ]
+}
