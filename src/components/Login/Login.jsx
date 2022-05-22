@@ -51,7 +51,7 @@ export const Login = () => {
 
 
 
-    const responseGoogle = (response) => {
+    const responseGoogle =(response) => {
         console.log(response);
     }
 

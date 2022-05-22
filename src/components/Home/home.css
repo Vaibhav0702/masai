@@ -315,3 +315,266 @@
  
 
 }
+
+
+.readyBox{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+.readyBox1{
+  background-color: rgb(246,237,231);
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+  padding: 90px 50px 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 30px;
+
+  margin-top: 30px;
+}
+
+.readyBoxO{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+   
+}
+
+.readyBoxO > div >p{
+    font-weight: bold;
+   
+}
+
+.readyBoxI{
+    background-color: rgb(246,237,231) ;
+
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.readyBoxI > p{
+  
+ font-weight: bold;
+ color: rgb(204,146,110) ;
+ font-size: 30px;
+}
+
+
+
+
+
+.Dbox{
+    text-align: center;
+  width: 90%;
+  margin: auto;
+ 
+}
+
+.Dbox1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.DboxA1{
+
+    background-color:rgb(110,113,204);
+    height: 188px;
+    background-image: url(https://www.masaischool.com/img/homepage/Field/purple.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    padding-top: var(--chakra-space-28);
+
+}
+
+
+.DboxAp{
+
+    background-color: var(--chakra-colors-white);
+    height: 1px;
+    margin-top: 50px;
+
+}
+
+
+.DboxAS{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    background-color:rgb(110,113,204) ;
+    font-weight: bold;
+    width: 45%;
+    margin-left: 15px;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+
+
+
+.DboxB1{
+
+    background-color:rgb(111,205,158);
+    height: 188px;
+    background-image: url(https://www.masaischool.com/img/homepage/Field/green.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    padding-top: var(--chakra-space-28);
+
+}
+
+
+.DboxBp{
+
+    background-color: var(--chakra-colors-white);
+    height: 1px;
+    margin-top: 50px;
+
+}
+
+
+.DboxBS{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    background-color:rgb(111,205,158) ;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 15px;
+    margin-top: -25px;
+    padding-left: 10px;
+}
+
+
+
+.DboxC1{
+
+    background-color:rgb(204,146,110);
+    height: 188px;
+    background-image: url(https://www.masaischool.com/img/homepage/Field/brown.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    padding-top: var(--chakra-space-28);
+
+}
+
+
+.DboxCp{
+
+    background-color: var(--chakra-colors-white);
+    height: 1px;
+    margin-top: 50px;
+
+}
+
+
+.DboxCS{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    background-color:rgb(204,146,110) ;
+    font-weight: bold;
+    width: 25%;
+    margin-left: 15px;
+    margin-top: -25px;
+    padding-left: 10px;
+}
+
+.DboxA{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 30px;
+}
+
+.DboxA2{
+    text-align: left;
+    color: gray;
+    padding: 20px;
+}
+
+
+.DboxA31{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.DboxA32{
+    display: flex;
+    gap: 10px;
+    padding: 25px;
+    margin-top: -50px;
+    font-weight: bold;
+    color: gray;
+}
+
+.DboxA33{
+
+
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-top: -25px;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.DboxA4 > div{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.DboxA3{
+    margin-top: 30px;
+}
+
+.DboxC4 >div {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 500;
+    color: red;
+}
+.DboxC4{
+   /* border: 1px solid blue; */
+   margin-top: 180px;
+   cursor: pointer;
+}
+
+.DboxC{
+    display: flex; 
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 30px;
+}

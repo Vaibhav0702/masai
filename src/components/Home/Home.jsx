@@ -5,8 +5,12 @@ import Marquee from "react-fast-marquee";
 import "./home.css"
 import { Clogos } from "../Company/Clogos";
 
-import { ChevronRightIcon, StarIcon, CheckIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, StarIcon, CheckIcon, TimeIcon } from '@chakra-ui/icons';
 
+
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+
+import SchoolIcon from '@mui/icons-material/School';
 
 
 export const Home = () => {
@@ -214,8 +218,8 @@ export const Home = () => {
                 <div className="ADboxLU">
                     <div >
 
-                        <div><img style={{ "margin-left": "50px" }} src="https://www.masaischool.com/img/homepage/sunshine.png" alt="" /></div>
-                        <div style={{ "margin-top": "-30px" }} >
+                        <div><img style={{ "marginLeft": "50px" }} src="https://www.masaischool.com/img/homepage/sunshine.png" alt="" /></div>
+                        <div style={{ "marginTop": "-30px" }} >
                             <p> <span style={{ color: "yellow" }}>7000+ </span>  Students Currently</p>
                         </div>
 
@@ -226,7 +230,7 @@ export const Home = () => {
                     </div>
                     <div>
                         <div> <p> <span style={{ color: "yellow" }}>96% </span> Placement Rate</p></div>
-                        <img style={{   "margin-left":"70px" , "margin-top":"-7px"  }} src="https://www.masaischool.com/img/homepage/underline.svg" alt="" />
+                        <img style={{ "marginLeft": "70px", "marginTop": "-7px" }} src="https://www.masaischool.com/img/homepage/underline.svg" alt="" />
                     </div>
                 </div>
 
@@ -238,7 +242,7 @@ export const Home = () => {
                         </div>
 
                         <div>
-                            <p style={{ "font-weight": "bold", "font-size": "30px" }}>7.5 LPA <br /> Average <br /> Salary</p>
+                            <p style={{ "fontWeight": "bold", "fontSize": "30px" }}>7.5 LPA <br /> Average <br /> Salary</p>
                         </div>
 
                     </div>
@@ -250,7 +254,7 @@ export const Home = () => {
                         </div>
 
                         <div>
-                            <p style={{ "font-weight": "bold", "font-size": "30px" }}>36 LPA <br /> Highest <br />  Salary</p>
+                            <p style={{ "fontWeight": "bold", "fontSize": "30px" }}>36 LPA <br /> Highest <br />  Salary</p>
                         </div>
                     </div>
 
@@ -284,7 +288,273 @@ export const Home = () => {
         {/* ------------------------------------------ */}
 
 
+        <div className="readyBox">
+            <div>
+                <div>
+                    <p className="hairp2" >Ready To Realise Your</p>
+                </div>
+                <div>
+                    <p className="hairp2" >Career Potential?</p>
+                </div>
+            </div>
 
+
+            <div className="readyBox1">
+
+                <div className="readyBoxO">
+                    <div className="readyBoxI" >
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <p>
+                            Apply For The <br /> Program
+                        </p>
+                    </div>
+                </div>
+
+                <div className="readyBoxO">
+                    <div className="readyBoxI" >
+                        <p>2</p>
+                    </div>
+                    <div>
+                        <p>
+                            Crack The <br /> Admission Test
+                        </p>
+                    </div>
+                </div>
+
+                <div className="readyBoxO">
+                    <div className="readyBoxI" >
+                        <p>3</p>
+                    </div>
+                    <div>
+                        <p>
+                            Learn At 0 <br /> Upfront Fee
+                        </p>
+                    </div>
+                </div>
+
+                <div className="readyBoxO">
+                    <div className="readyBoxI" >
+                        <p>4</p>
+                    </div>
+                    <div>
+                        <p>
+                            Get Placed
+                        </p>
+                    </div>
+                </div>
+
+
+                <div className="readyBoxO">
+                    <div className="readyBoxI" >
+                        <p>5</p>
+                    </div>
+                    <div>
+                        <p>
+                            Pay When You <br /> Earn 5 LPA
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {/* -------------------------------------------------- */}
+
+        <div className="Dbox">
+
+            <div>
+                <div>
+                    <p className="hairp2" >Three Fields</p>
+                </div>
+                <div>
+                    <p className="hairp2" >High Growth Career Options</p>
+                </div>
+            </div>
+
+
+            <div className="Dbox1">
+
+                <div className="DboxA" >
+
+                    <div className="DboxA1" >
+
+                        <p className="DboxAp">
+
+                        </p>
+                        <div className="DboxAS">
+                            <p>  Software Development</p>
+                        </div>
+
+                    </div>
+
+                    <div className="DboxA2" >
+                        <p>
+                            Start your coding career and become an industry-ready Full Stack Web Developer in India's ever-growing technology job market.
+                        </p>
+                    </div>
+
+
+                    <div className="DboxA3">
+
+                        <div className="DboxA31">
+                            <div>
+                                <CurrencyRupeeIcon style={{ color: "gray" }} />
+                            </div>
+                            <div>
+                                <p>Pay Only After You Earn 5LPA</p>
+                                <img style={{ marginTop: "-14px" }} src="https://www.masaischool.com/img/homepage/scribble.png" alt="" />
+                            </div>
+                        </div>
+
+
+                        <div className="DboxA32">
+                            <div>
+                                <TimeIcon color="gray" />
+                            </div>
+                            <div>
+                                <p>Full Time | Part Time</p>
+                            </div>
+                        </div>
+
+                        <div className="DboxA33">
+                            <div>
+                                <SchoolIcon style={{ color: "gray" }} />
+                            </div>
+                            <div>
+                                <p>4 Programs</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div className="DboxA4">
+
+                        <div>
+                            <div>
+                                <p>
+                                    VIEW DETAILS
+                                </p>
+                            </div>
+                            <div> <ChevronRightIcon w={6} h={6} color="red.500" /></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div className="DboxA" >
+
+                    <div className="DboxB1" >
+
+                        <p className="DboxBp">
+
+                        </p>
+                        <div className="DboxBS">
+                            <p>  Data Analytics </p>
+                        </div>
+
+                    </div>
+
+                    <div className="DboxA2" >
+                        <p>
+                            Break into the fast-growing field of Data Analytics and launch yourself into a variety of roles like Business Intelligence Analyst, Data Analyst & Data Scientist among others.
+                        </p>
+                    </div>
+
+                    <div className="DboxB3" style={{marginBottom:"30px"}}>
+
+                        <div className="DboxA31">
+                            <div>
+                                <CurrencyRupeeIcon style={{ color: "gray" }} />
+                            </div>
+                            <div>
+                                <p>Pay Only After You Earn 5LPA</p>
+                                <img style={{ marginTop: "-14px" }} src="https://www.masaischool.com/img/homepage/scribble.png" alt="" />
+                            </div>
+                        </div>
+
+
+                        <div className="DboxA32">
+                            <div>
+                                <TimeIcon color="gray" />
+                            </div>
+                            <div>
+                                <p>Part Time</p>
+                            </div>
+                        </div>
+
+                        <div className="DboxA33">
+                            <div>
+                                <SchoolIcon style={{ color: "gray" }} />
+                            </div>
+                            <div>
+                                <p>1 Program</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div className="DboxA4">
+
+                        <div>
+                            <div>
+                                <p>
+                                    VIEW DETAILS
+                                </p>
+                            </div>
+                            <div> <ChevronRightIcon w={6} h={6} color="red.500" /></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div className="DboxC" >
+
+                    <div className="DboxC1" >
+
+                        <p className="DboxCp">
+
+                        </p>
+                        <div className="DboxCS">
+                            <p>Design</p>
+                        </div>
+
+                    </div>
+
+                    <div className="DboxA2" >
+                        <p>
+                            Become the catalyst that bridges the interaction between humans and computers by landing job roles in UI Design, UX Design, Product Design among many others.
+                        </p>
+                    </div>
+
+                    <div className="DboxC4">
+
+                        <div>
+                            <div>
+                                <p>
+                                    COMMING SOON
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
 
 
 
