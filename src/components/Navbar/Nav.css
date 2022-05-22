@@ -82,3 +82,32 @@
 .topbtn{
     margin-left: 20px;
 }
+
+.Sidebar{
+   visibility: hidden;
+}
+
+@media (max-width:800px){
+
+   .list{
+       
+    display: none;
+   }
+
+   .course{
+       display: none;
+   }
+  
+   .Lbutton{
+       display: none;
+   }
+
+   .Sidebar{
+     
+     visibility: visible;
+    
+
+}
+
+
+}

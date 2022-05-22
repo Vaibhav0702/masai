@@ -1,6 +1,6 @@
 
 import "./Nav.css"
-import { ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronDownIcon, ChevronRightIcon, HamburgerIcon } from '@chakra-ui/icons'
 import { Button } from '@chakra-ui/react'
 import {
     Menu,
@@ -8,6 +8,7 @@ import {
     MenuList,
     MenuItem,
     MenuGroup,
+    MenuDivider,
 
 } from '@chakra-ui/react';
 
@@ -15,7 +16,11 @@ import { Link } from "react-router-dom";
 
 
 
+
+
 export const Navbar = () => {
+
+
 
 
     return (
@@ -34,6 +39,51 @@ export const Navbar = () => {
             </div>
             <div className="Navbar">
                 <div className="header">
+
+                    <div   className="Sidebar" >
+
+                        <Menu>
+                        {/* <HamburgerIcon className="Sidebar" w={10} m={1} 
+                        
+                        px={4}
+                        py={2}
+                        transition='all 0.2s'
+                        borderRadius='md'
+                        borderWidth='1px'
+                        _hover={{ bg: 'gray.400' }}
+                        _expanded={{ bg: 'blue.400' }}
+                        _focus={{ boxShadow: 'outline' }}
+                        
+                        
+                        
+                        /> */}
+
+                     
+                            <MenuButton
+                          
+                                px={4}
+                                py={2}
+                                transition='all 0.2s'
+                                borderRadius='md'
+                                _expanded={{ bg: 'white.400' }}
+                                _focus={{ boxShadow: 'outline' }}
+                            >
+                                <HamburgerIcon/>
+                            </MenuButton>
+
+                            <MenuList>
+                                <MenuItem> COURSES</MenuItem>
+                                <MenuItem>New Window</MenuItem>
+                                <MenuDivider />
+                                <MenuItem>Open...</MenuItem>
+                                <MenuItem>Save File</MenuItem>
+                            </MenuList>
+                        </Menu>
+
+
+
+                    </div>
+
 
                     <Link to="/">
                         <div className="logo">
@@ -176,7 +226,7 @@ export const Navbar = () => {
                     <div className="btn">
 
 
-                        <div>
+                        <div className="Lbutton">
                             <Link to="/login">
                                 <Button colorScheme='red' variant='solid'>
                                     APPLY NOW FOR FREE

@@ -21,7 +21,7 @@ export const Home = () => {
 
     return <>
 
-        {/* <Navbar /> */}
+        <Navbar />
 
         <div className="box">
             <div>
@@ -91,7 +91,7 @@ export const Home = () => {
                 </div>
             </div>
 
-            <div id="topper" >
+            <div id="topper_res" >
 
                 <Carousel autoPlay={true} infiniteLoop={true} width={"50%"} showStatus={false}   >
 
@@ -206,6 +206,117 @@ export const Home = () => {
 
 
 
+
+            </div>
+
+            
+            <div id="topper" >
+
+                    <div className="info">
+
+                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Aayushi_527cd1c2a3.jpg" alt="" /></div>
+
+                        <div className="infoboxA">
+                            <div className="infobox1">
+
+
+                                <div>
+                                    <p className="para">
+                                        I got placed within 2 days after graduation! I’m happy I am part of the Masai family, not because they helped me but because of their mission to help other lost...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="infobox2">
+                                <p> Aayushi Shah</p>
+                                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" />
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div className="info">
+
+                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Kritika_Tripathi_716c47cbbd.jpg" alt="" /></div>
+
+                        <div className="infoboxB">
+                            <div className="infobox1">
+
+
+
+                                <div>
+                                    <p className="para">
+                                        Masai brought discipline to my life, helped me develop a coder’s mindset and increase my concentration as well as time management skills. It took me...
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div className="infobox2">
+                                <p> Kritika Tripathi</p>
+                                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="info">
+
+                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Lokesh_Nimje_90cfa775e3.jpg" alt="" /></div>
+
+                        <div className="infoboxC">
+                            <div>
+                                <div className="infobox1">
+
+                                    <div>
+                                        <p className="para">
+                                            Projects are a part of journey at Masai. It gives the opportunity to work in a team, which gives a real experience of the corporate world. This helps students to....
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <div className="infobox2">
+                                    <p> Lokesh Nimje</p>
+                                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/MPL_7713ca3d5b.svg" alt="" />
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div className="info">
+
+                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Lalitha_9c1e4f1cab.jpg" alt="" /></div>
+
+                        <div className="infoboxD">
+
+                            <div>
+                                <div className="infobox1">
+
+
+                                    <div>
+                                        <p className="para">
+                                            I left a job at Infosys to learn coding. Masai helped me get 3X more salary in a product-based company.
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                                <div className="infobox2">
+                                    <p>Lalitha Perumalla</p>
+                                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ajio_2ba59d62cb.svg" alt="" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
 
             </div>
 

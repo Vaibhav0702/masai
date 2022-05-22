@@ -185,10 +185,18 @@
 }
 
 
+#topper_res{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid purple; */
+    display: none;
+}
+
 #topper{
     display: flex;
     gap: 20px;
     /* border: 1px solid purple; */
+    
 }
 
 .infobox2{
@@ -583,6 +591,10 @@
     margin-left: 50px;
 }
 
+.Topper_Res{
+    display: none;
+}
+
 @media (max-width:800px){
    
     .box{
@@ -630,6 +642,19 @@
         font-size: 30px;
     }
     
+    #topper_res{
+        display: flex;
+        gap: 20px;
+        /* border: 1px solid purple; */
+       
+    }
+    
+    #topper{
+        display: flex;
+        gap: 20px;
+        /* border: 1px solid purple; */
+        display: none;
+    }
  
     
 }
