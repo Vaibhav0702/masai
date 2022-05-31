@@ -4,7 +4,10 @@
     margin: 10px auto;
     text-align: center;
 }
-
+.tv{
+    position: relative;
+    z-index: -1;
+}
 .heading{
     font-weight: bold;
     font-size: 55px;
@@ -595,6 +598,54 @@
     display: none;
 }
 
+
+.youtubedabba{
+ 
+    width: 90%;
+    background-color: #fffafb;
+    border-radius: 20px;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    visibility: visible;
+
+}
+
+.Ytextdabba{
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+.Yvideodabba{
+    border-radius: 20px;
+}
+
+.Instructor{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    visibility: visible;
+    margin-top: -1600px;
+}
+
+.RESInstructor{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  visibility: hidden;
+}
+.IText{
+    text-align: center;
+}
+
+.INSbtn{
+    margin-top: -480px;
+}
+
+
 @media (max-width:800px){
    
     .box{
@@ -606,7 +657,10 @@
     .readyBox{
         display: none;
     }
-
+     
+   .Dbox{
+       margin-top: 50px;
+   }
 
     .Dbox1{
         display: grid;
@@ -655,8 +709,57 @@
         /* border: 1px solid purple; */
         display: none;
     }
- 
     
+    .youtubedabba{
+ 
+        width: 90%;
+        background-color: #fffafb;
+        border-radius: 20px;
+        padding: 50px;
+        margin: auto;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 50px;
+        visibility: hidden;
+    
+    }
+
+
+    
+
+    .Instructor{
+        border: 1px solid orange;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+       visibility: hidden;
+    }
+  .Instructor> div{
+      visibility: hidden;
+  }
+    
+    .RESInstructor{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        visibility: visible;
+        margin-top: -800px;
+    }
+
+    .INSbtn{
+        margin-top:500px;
+        visibility: hidden;
+    }
+    
+    /* .RESINSbtn{
+        
+        margin-top: 50px;
+        visibility: visible;
+    } */
+
+
+
 }
 
 

@@ -2,6 +2,8 @@
 import "./Nav.css"
 import { ChevronDownIcon, ChevronRightIcon, HamburgerIcon } from '@chakra-ui/icons'
 import { Button } from '@chakra-ui/react'
+
+
 import {
     Menu,
     MenuButton,
@@ -12,7 +14,9 @@ import {
 
 } from '@chakra-ui/react';
 
+
 import { Link } from "react-router-dom";
+
 
 
 
@@ -40,45 +44,104 @@ export const Navbar = () => {
             <div className="Navbar">
                 <div className="header">
 
-                    <div   className="Sidebar" >
+                    <div className="Sidebar" >
+                       
+                           
 
+                    <div >
                         <Menu>
-                        {/* <HamburgerIcon className="Sidebar" w={10} m={1} 
-                        
-                        px={4}
-                        py={2}
-                        transition='all 0.2s'
-                        borderRadius='md'
-                        borderWidth='1px'
-                        _hover={{ bg: 'gray.400' }}
-                        _expanded={{ bg: 'blue.400' }}
-                        _focus={{ boxShadow: 'outline' }}
-                        
-                        
-                        
-                        /> */}
-
-                     
-                            <MenuButton
-                          
-                                px={4}
-                                py={2}
-                                transition='all 0.2s'
-                                borderRadius='md'
-                                _expanded={{ bg: 'white.400' }}
-                                _focus={{ boxShadow: 'outline' }}
-                            >
-                                <HamburgerIcon/>
+                            <MenuButton variant='ghost' _hover={{ bg: '#FFF5F5', color: "#C53030" }} as={Button} >
+                               <HamburgerIcon/>
                             </MenuButton>
-
                             <MenuList>
-                                <MenuItem> COURSES</MenuItem>
-                                <MenuItem>New Window</MenuItem>
-                                <MenuDivider />
-                                <MenuItem>Open...</MenuItem>
-                                <MenuItem>Save File</MenuItem>
+                            <MenuGroup title='Courses'  _hover={{ bg: '#FFF5F5' }} ></MenuGroup>
+                                <MenuGroup title='Full Time'>
+                                    <MenuItem _hover={{ bg: '#FFF5F5' }}>
+                                        <div>
+                                            <div className="menulist">
+                                                <div>
+                                                    <a href="/">
+                                                        <div>
+                                                            <p>Full Stack Web Development</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <ChevronRightIcon w={6} h={6} color="red.500" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p className="smalltext">"30 Weeks | 18 - 20 Yrs | Online"</p>
+                                            </div>
+                                        </div>
+                                    </MenuItem>
+                                </MenuGroup>
+                                <MenuGroup title='Part Time'>
+                                    <MenuItem _hover={{ bg: '#FFF5F5' }}>
+                                        <div>
+                                            <div className="menulist">
+                                                <div>
+                                                    <a href="/">
+                                                        <div>
+                                                            <p>Full Stack Android Development</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <ChevronRightIcon w={6} h={6} color="red.500" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p className="smalltext">"30 Weeks | 18 - 20 Yrs | Online"</p>
+                                            </div>
+                                        </div>
+                                    </MenuItem>
+                                    <MenuItem _hover={{ bg: '#FFF5F5' }}>
+                                        <div>
+                                            <div className="menulist">
+                                                <div>
+                                                    <a href="/">
+                                                        <div>
+                                                            <p>Full Stack Web Development</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <ChevronRightIcon w={6} h={6} color="red.500" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p className="smalltext">"30 Weeks | 18 - 20 Yrs | Online"</p>
+                                            </div>
+                                        </div>
+                                    </MenuItem>
+                                    <MenuItem _hover={{ bg: '#FFF5F5' }}  >
+                                        < div >
+                                            <div className="menulist">
+                                                <div className="arro1">
+                                                    <a href="/">
+                                                        <div>
+                                                            <p>Data Analytics</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div className="arro">
+                                                    <ChevronRightIcon w={6} h={6} color="red.500" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p className="smalltext">"30 Weeks | 18 - 20 Yrs | Online"</p>
+                                            </div>
+                                        </div>
+                                    </MenuItem>
+                                </MenuGroup>
+                                <MenuGroup  title='Fees & ISA'  _hover={{ bg: '#FFF5F5' }}   > </MenuGroup>
+                                <MenuGroup title='About US'  _hover={{ bg: '#FFF5F5' }} ></MenuGroup>
+                                <MenuGroup title='Hair From US'  _hover={{ bg: '#FFF5F5' }} ></MenuGroup>
+                                <MenuGroup title='FAQ'  _hover={{ bg: '#FFF5F5' }} ></MenuGroup>
                             </MenuList>
                         </Menu>
+                    </div>
 
 
 

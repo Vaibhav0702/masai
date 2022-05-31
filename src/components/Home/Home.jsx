@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react"
+import { Button, Heading } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
 import { Navbar } from "../Navbar/Navbar"
 import Marquee from "react-fast-marquee";
@@ -16,12 +16,24 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 import { Carousel } from 'react-responsive-carousel';
 
+import ReactPlayer from 'react-player'  // react-player
+
+import { Instructor } from "../Instructors/Instructor";
+import Footer from "../Footer/Footer";
+
+
+
+
+
 
 export const Home = () => {
+
+
 
     return <>
 
         <Navbar />
+
 
         <div className="box">
             <div>
@@ -79,7 +91,7 @@ export const Home = () => {
         </div>
 
 
-        {/* ------------------------------- */}
+        {/* --------------info----------------- */}
 
         <div className="infodabba">
             <div>
@@ -209,114 +221,114 @@ export const Home = () => {
 
             </div>
 
-            
+
             <div id="topper" >
 
-                    <div className="info">
+                <div className="info">
 
-                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Aayushi_527cd1c2a3.jpg" alt="" /></div>
+                    <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Aayushi_527cd1c2a3.jpg" alt="" /></div>
 
-                        <div className="infoboxA">
+                    <div className="infoboxA">
+                        <div className="infobox1">
+
+
+                            <div>
+                                <p className="para">
+                                    I got placed within 2 days after graduation! I’m happy I am part of the Masai family, not because they helped me but because of their mission to help other lost...
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="infobox2">
+                            <p> Aayushi Shah</p>
+                            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" />
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+                <div className="info">
+
+                    <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Kritika_Tripathi_716c47cbbd.jpg" alt="" /></div>
+
+                    <div className="infoboxB">
+                        <div className="infobox1">
+
+
+
+                            <div>
+                                <p className="para">
+                                    Masai brought discipline to my life, helped me develop a coder’s mindset and increase my concentration as well as time management skills. It took me...
+                                </p>
+                            </div>
+
+                        </div>
+                        <div className="infobox2">
+                            <p> Kritika Tripathi</p>
+                            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png" alt="" />
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="info">
+
+                    <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Lokesh_Nimje_90cfa775e3.jpg" alt="" /></div>
+
+                    <div className="infoboxC">
+                        <div>
+                            <div className="infobox1">
+
+                                <div>
+                                    <p className="para">
+                                        Projects are a part of journey at Masai. It gives the opportunity to work in a team, which gives a real experience of the corporate world. This helps students to....
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div className="infobox2">
+                                <p> Lokesh Nimje</p>
+                                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/MPL_7713ca3d5b.svg" alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div className="info">
+
+                    <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Lalitha_9c1e4f1cab.jpg" alt="" /></div>
+
+                    <div className="infoboxD">
+
+                        <div>
                             <div className="infobox1">
 
 
                                 <div>
                                     <p className="para">
-                                        I got placed within 2 days after graduation! I’m happy I am part of the Masai family, not because they helped me but because of their mission to help other lost...
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="infobox2">
-                                <p> Aayushi Shah</p>
-                                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg" alt="" />
-                            </div>
-
-
-
-
-                        </div>
-
-                    </div>
-
-                    <div className="info">
-
-                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Kritika_Tripathi_716c47cbbd.jpg" alt="" /></div>
-
-                        <div className="infoboxB">
-                            <div className="infobox1">
-
-
-
-                                <div>
-                                    <p className="para">
-                                        Masai brought discipline to my life, helped me develop a coder’s mindset and increase my concentration as well as time management skills. It took me...
+                                        I left a job at Infosys to learn coding. Masai helped me get 3X more salary in a product-based company.
                                     </p>
                                 </div>
 
+
                             </div>
                             <div className="infobox2">
-                                <p> Kritika Tripathi</p>
-                                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png" alt="" />
+                                <p>Lalitha Perumalla</p>
+                                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ajio_2ba59d62cb.svg" alt="" />
                             </div>
                         </div>
 
                     </div>
 
-                    <div className="info">
-
-                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Lokesh_Nimje_90cfa775e3.jpg" alt="" /></div>
-
-                        <div className="infoboxC">
-                            <div>
-                                <div className="infobox1">
-
-                                    <div>
-                                        <p className="para">
-                                            Projects are a part of journey at Masai. It gives the opportunity to work in a team, which gives a real experience of the corporate world. This helps students to....
-                                        </p>
-                                    </div>
-
-                                </div>
-
-                                <div className="infobox2">
-                                    <p> Lokesh Nimje</p>
-                                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/MPL_7713ca3d5b.svg" alt="" />
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div className="info">
-
-                        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Lalitha_9c1e4f1cab.jpg" alt="" /></div>
-
-                        <div className="infoboxD">
-
-                            <div>
-                                <div className="infobox1">
-
-
-                                    <div>
-                                        <p className="para">
-                                            I left a job at Infosys to learn coding. Masai helped me get 3X more salary in a product-based company.
-                                        </p>
-                                    </div>
-
-
-                                </div>
-                                <div className="infobox2">
-                                    <p>Lalitha Perumalla</p>
-                                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ajio_2ba59d62cb.svg" alt="" />
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
+                </div>
 
             </div>
 
@@ -330,7 +342,7 @@ export const Home = () => {
         </div>
 
 
-        {/* --------------------------------------- */}
+        {/* -------------------adbox-------------------- */}
 
         <div className="ADbox">
 
@@ -406,7 +418,7 @@ export const Home = () => {
         </div>
 
 
-        {/* ------------------------------------------ */}
+        {/* -----------------readybox------------------------- */}
 
 
         <div className="readyBox">
@@ -480,7 +492,7 @@ export const Home = () => {
             </div>
         </div>
 
-        {/* -------------------------------------------------- */}
+        {/* ----------------databox---------------------------------- */}
 
         <div className="Dbox">
 
@@ -677,8 +689,80 @@ export const Home = () => {
 
         </div>
 
+        {/* -----------youtube------------------------------- */}
+
+        <div className="youtubedabba">
+
+            <div className="Ytextdabba">
+
+                <Heading style={{ marginBottom: "20px" }}>Masai and N.S.D.C. Announce Strategic Partnership.</Heading>
+
+                <p>The partnership with National Skill Development Corporation has the potential to create equal employment opportunity for India’s youth, narrowing the gap between the demand and supply of skilled manpower for the private-sector job market. This collaboration will change the way skill-based education is delivered in India.</p>
+
+            </div>
 
 
+            <div className="Yvideodabba">
+
+                <ReactPlayer url="https://youtu.be/6vOmBOvIyPE" />
+
+            </div>
+
+
+        </div>
+
+
+
+        {/* ---------------------Instructor---------------------------------- */}
+
+        <div className="RESInstructor">
+
+            <div className="IText">
+
+                <Heading style={{ marginBottom: "10px" }}>Meet Your <br /> Instructors</Heading>
+
+                <p>With extensive industry experience, the Masai <br /> Curriculum Team is a group of expert instructors.</p>
+
+            </div>
+
+            <Instructor Props={`http://localhost:8080/Instructor1`} />
+
+            
+            <div className="RESINSbtn">
+                <Button colorScheme='red' variant='solid' >
+                    <div className="story"> <p>See More</p> <div> <ChevronRightIcon w={6} h={6} color="white" /></div></div>
+                </Button>
+            </div>
+
+    
+        </div>
+
+        
+        <div className="Instructor">
+
+            <div className="IText">
+
+                <Heading style={{ marginBottom: "10px" }}>Meet Your Instructors</Heading>
+
+                <p>With extensive industry experience, the Masai <br /> Curriculum Team is a group of expert instructors.</p>
+
+            </div>
+
+            <Instructor Props={`http://localhost:8080/Instructor1`} />
+
+            <div className="INSbtn">
+                <Button colorScheme='red' variant='solid' >
+                    <div className="story"> <p>See More</p> <div> <ChevronRightIcon w={6} h={6} color="white" /></div></div>
+                </Button>
+            </div>
+
+
+    
+        </div>
+
+
+
+        <Footer/>
 
     </>
 

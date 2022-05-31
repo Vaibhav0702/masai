@@ -75,15 +75,15 @@ export const Login = () => {
                     <div className="title">Sign Up</div>
                     <div> <p className="formp">Full Name</p></div>
 
-                    <div><input onChange={handleChange} className="input" id="username" type="text" placeholder="Enter Your Full Name" /></div>
+                    <div><input onChange={handleChange} className="input" id="username" type="text" placeholder="Enter Your Full Name" required /></div>
 
                     <div> <p className="formp">Email</p></div>
 
-                    <div><input onChange={handleChange} className="input" id="email" type="text" placeholder="Enter Email" /></div>
+                    <div><input onChange={handleChange} className="input" id="email" type="text" placeholder="Enter Email" required /></div>
 
                     <div className="forgot"> <p className="formp">Password</p> <a className="fgta" href="/">Forgot Password ? </a></div>
 
-                    <div><input onChange={handleChange} className="input" id="password" type="text" placeholder="Enter Password" /></div>
+                    <div><input onChange={handleChange} className="input" id="password" type="text" placeholder="Enter Password" required /></div>
 
                     <div> <input type="submit" value="Sign Up" id="submit" /></div>
                 </form>

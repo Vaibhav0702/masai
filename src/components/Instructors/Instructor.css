@@ -1,0 +1,83 @@
+.InsContainer{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    grid-gap: 30px;
+  
+}
+
+.card{
+   
+    /* border: 1px solid red; */
+  
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+    cursor: pointer;
+}
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.Cimg{
+    width: 45%;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.Pimg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.name{
+    font-weight: bold;
+    text-align: center;
+}
+.position{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15px;
+}
+
+.RESINScontainer{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    grid-gap: 30px;
+    visibility: hidden;
+}
+
+
+
+@media (max-width:800px){
+
+    .InsContainer{
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 20px;
+        grid-gap: 30px;
+        visibility: hidden;
+    }
+    
+    .RESINScontainer{
+        /* border: 1px solid blue; */
+       width: 85%;
+           
+        margin: auto;
+    
+        margin-top: -550px;
+        visibility: visible;
+    }
+    
+    .Cimg{
+       
+       width: 50px;
+    }
+
+}

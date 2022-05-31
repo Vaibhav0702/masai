@@ -1,0 +1,35 @@
+
+
+.footerbox{
+    border: 1px solid red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footerUpper{
+    border: 1px solid blue;
+    display: flex;
+}
+
+.FUL{
+    border: 1px solid brown;
+    flex: 5;
+    background-color: #f6ede7;
+    padding: 40px;
+}
+
+.RUL{
+    flex: 5;
+    background-color: #fff9e5;
+    padding: 40px;
+}
+
+.FULH{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.RULH{
+    font-weight: bold;
+    font-size: 40px;
+}

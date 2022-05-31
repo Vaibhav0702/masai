@@ -71,6 +71,7 @@
     margin-top: 6px;
     color: white;
     font-weight: bold;
+  
    
 }
 
@@ -105,9 +106,29 @@
    .Sidebar{
      
      visibility: visible;
+     position: relative;
+     z-index: 1;
+     opacity: 100;
     
 
 }
+
+
+.upper{
+    
+    
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
 
 
 }
