@@ -1,18 +1,18 @@
 
 
 .footerbox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 20px;
     text-align: center;
 }
 
 .footerUpper{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
 }
 
 .FUL{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     flex: 5;
     background-color: #f6ede7;
     padding: 40px;
@@ -32,4 +32,121 @@
 .RULH{
     font-weight: bold;
     font-size: 40px;
+}
+.discordbtn{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.footerLower{
+    background-color: rgb(10,1,3);
+     padding: 10px 30px 10px 30px;
+     color: white;
+}
+
+.FLO{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.FLT{
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    gap: 50px;
+}
+.FLT>div>p{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.FLT>div>p:hover{
+    color: red;
+}
+
+.FLTH{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.FLOR{
+    display: flex;
+   
+    color: gray;
+}
+
+a{
+    margin-left: 20px ;
+}
+
+
+
+@media (max-width:800px){
+
+
+    .footerbox{
+        /* border: 1px solid red; */
+        margin-top: -1100px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .footerUpper{
+        /* border: 1px solid blue; */
+       display: flex;
+       flex-direction: column;
+    }
+
+
+    .FULH{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .RULH{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .FLTTH{
+        
+        display: none;
+    }
+    
+    /* .FLTT{
+
+        border: 1px solid white;
+    } */
+    
+   
+
+    .FLTO{
+        /* border: 1px solid white; */
+        width: 200px;
+    }
+    
+    .FLO{
+        display: none;
+    }
+
+    .Done{
+        display: none;
+    }
+    
+    .FLTH{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .FLTH>div{
+        font-size: 13px;
+    }
+
+
+
+
+
 }
